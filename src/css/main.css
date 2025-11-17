@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+body {
+  font-family: "Antique Legacy Trial";
+  margin: 32px 12px 0px 12px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav img {
+  width: 144.321px;
+  height: 116px;
+}
+
+p {
+  color: #341e47;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icons img {
+  width: 24px;
+}
+
+.top,
+.center,
+.bottom {
+  display: flex;
+  gap: 8px;
+}
+
+.composition {
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 32;
+}
