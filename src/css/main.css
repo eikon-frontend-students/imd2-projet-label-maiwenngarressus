@@ -51,7 +51,6 @@ p {
 .icons img {
   width: 24px;
 }
-
 .top,
 .center,
 .bottom {
@@ -59,13 +58,52 @@ p {
   gap: 8px;
 }
 
+.top .satarii,
+.center .visage {
+  width: 100%;
+  object-fit: cover;
+  height: 301px;
+}
+
+.bottom .decoration {
+  width: 100%;
+  object-fit: cover;
+  height: 90px;
+}
+
 .composition {
   display: flex;
   flex-direction: column;
   gap: 8;
 }
+
 .header {
   display: flex;
   flex-direction: column;
-  gap: 32;
+  gap: 32px;
 }
+
+/*.composition {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90px 90px 90px 90px 90px 90px 90px;
+}
+
+.rectangle {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.satarii {
+  grid-column: 4 / 13;
+  grid-row: 1 / 3;
+}
+
+.visage {
+  grid-column: 1 / 11;
+  grid-row: 4 / 7;
+}
+
+.cheveux {
+}
+*/
