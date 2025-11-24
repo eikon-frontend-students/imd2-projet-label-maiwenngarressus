@@ -15,7 +15,6 @@ video {
 
 body {
   font-family: "Antique Legacy Trial";
-  margin: 32px 12px 0px 12px;
 }
 
 .menu {
@@ -30,6 +29,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 32px 15px;
 }
 
 .nav img {
@@ -51,59 +51,86 @@ p {
 .icons img {
   width: 24px;
 }
-.top,
-.center,
-.bottom {
+
+.slider {
+  position: relative;
+}
+
+.slider .artiste {
+  width: 100%;
+  object-fit: cover;
+  height: 611px;
+  object-position: top;
+  overflow: hidden;
+}
+
+.slider .artiste {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/*.slider img {
+  width: 24px;
+}
+*/
+.slider .info {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  align-items: end;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  margin: 0px 15px;
+}
+
+.slider h1 {
+  color: #f5edf8;
+  font-family: "Antique Legacy Trial";
+  font-size: 128px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+main {
+  margin: 128px 15px 0px 15px;
+}
+
+.content h2 {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-40, 40px);
+  font-weight: 250;
+  text-transform: uppercase;
+}
+
+.jolle,
+.cary,
+.skuff,
+.diep,
+.mariybu,
+.yetundey,
+.satarii,
+.mimii {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.skuff,
+.diep,
+.mariybu,
+.yetundey {
+  max-width: 345px;
+}
+
+.bottom,
+.top {
   display: flex;
   gap: 8px;
 }
 
-.top .satarii,
-.center .visage {
-  width: 100%;
-  object-fit: cover;
-  height: 301px;
-}
-
-.bottom .decoration {
-  width: 100%;
-  object-fit: cover;
-  height: 90px;
-}
-
-.composition {
+.content .artiste {
   display: flex;
-  flex-direction: column;
-  gap: 8;
 }
-
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-/*.composition {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 90px 90px 90px 90px 90px 90px 90px;
-}
-
-.rectangle {
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
-}
-
-.satarii {
-  grid-column: 4 / 13;
-  grid-row: 1 / 3;
-}
-
-.visage {
-  grid-column: 1 / 11;
-  grid-row: 4 / 7;
-}
-
-.cheveux {
-}
-*/
