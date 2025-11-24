@@ -70,10 +70,6 @@ p {
   display: block;
 }
 
-/*.slider img {
-  width: 24px;
-}
-*/
 .slider .info {
   display: flex;
   flex-direction: column;
@@ -141,6 +137,7 @@ main {
   gap: 8px;
   justify-content: space-between;
   margin-left: 15px;
+  position: relative;
 }
 
 .content h3 {
@@ -215,7 +212,7 @@ main {
 }
 
 footer {
-  padding: px 112px 128px 112px;
+  padding: 56px 112px 128px 112px;
   background-color: #341e47;
   display: flex;
   justify-content: space-between;
