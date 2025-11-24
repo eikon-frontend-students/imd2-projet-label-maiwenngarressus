@@ -94,15 +94,18 @@ p {
 }
 
 main {
-  margin: 128px 15px 0px 15px;
+  margin: 96px 15px 0px 0px;
 }
-
 .content h2 {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: var(--Text-40, 40px);
   font-weight: 250;
   text-transform: uppercase;
+  margin-bottom: 32px;
+  padding: 24px 32px 2px 15px;
+  width: 384px;
+  background-color: var(--Colors-violet-light, #f5edf8);
 }
 
 .jolle,
@@ -136,8 +139,8 @@ main {
 .artistes {
   display: flex;
   gap: 8px;
-  justify-content: flex-end;
-  justify-content: start;
+  justify-content: space-between;
+  margin-left: 15px;
 }
 
 .content h3 {
@@ -166,4 +169,62 @@ main {
 
 .jolle h3 {
   padding-left: 30px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 142%;
+}
+
+.contact .icons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ecoute .icons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ecoute {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.politique {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  padding: px 112px 128px 112px;
+  background-color: #341e47;
+  display: flex;
+  justify-content: space-between;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: var(--Colors-violet-light, #f5edf8);
 }
