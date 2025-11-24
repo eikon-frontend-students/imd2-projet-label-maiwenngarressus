@@ -29,7 +29,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 32px 15px;
+  margin: 16px 15px 32px 15px;
 }
 
 .nav img {
@@ -115,7 +115,7 @@ main {
 .mimii {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 699px;
 }
 
 .skuff,
@@ -123,6 +123,8 @@ main {
 .mariybu,
 .yetundey {
   max-width: 345px;
+  font-size: 56px;
+  margin: 0px 0px 75px 0px;
 }
 
 .bottom,
@@ -131,6 +133,37 @@ main {
   gap: 8px;
 }
 
-.content .artiste {
+.artistes {
   display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  justify-content: start;
+}
+
+.content h3 {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Void Trial";
+  font-weight: 700;
+  margin: 0px;
+}
+
+.jolle,
+.satarii {
+  font-size: 128px;
+  margin: 0px 0px 64px 0px;
+}
+
+.cary,
+.mimii {
+  font-size: 96px;
+  text-transform: uppercase;
+  margin: 0px 0px 56px 0px;
+}
+
+.satarii {
+  text-transform: uppercase;
+}
+
+.jolle h3 {
+  padding-left: 30px;
 }
