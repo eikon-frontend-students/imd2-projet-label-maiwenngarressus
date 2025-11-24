@@ -33,14 +33,13 @@ body {
 }
 
 .nav img {
-  width: 144.321px;
-  height: 116px;
+  width: 118px;
 }
 
 p {
   color: #341e47;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .icons {
@@ -215,7 +214,7 @@ footer {
   padding: 56px 112px 128px 112px;
   background-color: #341e47;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family: Helvetica;
   font-size: 20px;
   font-weight: 200;
