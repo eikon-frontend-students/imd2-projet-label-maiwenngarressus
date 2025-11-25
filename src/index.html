@@ -7,115 +7,67 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <include src="./components/nav.html"></include>
 
-    <div class="header">
-      <div class="nav">
-        <div class="menu">
-          <img src="img/logo.svg" alt="logo" />
-          <p>Artistes</p>
-          <p>Calendrier</p>
-          <p>Label</p>
-          <p>Shop</p>
+    <div class="slider">
+      <img class="artiste" src="img/mimii.jpg" alt="" />
+      <div class="info">
+        <img class="next" src="img/arrow.svg" alt="" />
+        <h1>mimii</h1>
+      </div>
+    </div>
+
+    <main>
+      <div class="content">
+        <h2>artistes</h2>
+        <div class="background"><img src="img/background-2.png" alt="" /></div>
+
+        <div class="artistes">
+          <div class="left">
+            <div class="jolle">
+              <img src="img/jolle.png" alt="" />
+              <a href="artiste.html">jolle</a>
+            </div>
+            <div class="cary">
+              <img src="img/cary.png" alt="" />
+              <h3>cary</h3>
+            </div>
+            <div class="bottom">
+              <div class="skuff">
+                <img src="img/skuff.png" alt="" />
+                <h3>Skuff Barbie</h3>
+              </div>
+              <div class="diep">
+                <img src="img/diep.png" alt="" />
+                <h3>Die P</h3>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="top">
+              <div class="mariybu">
+                <img src="img/mariybu.png" alt="" />
+                <h3>mariybu</h3>
+              </div>
+              <div class="yetundey">
+                <img src="img/yetundey.png" alt="" />
+                <h3>Yetundey</h3>
+              </div>
+            </div>
+            <div class="satarii">
+              <img src="img/satarii.png" alt="" />
+              <h3>satarii</h3>
+            </div>
+            <div class="mimii">
+              <img src="img/mimii.png" alt="" />
+              <h3>mimii</h3>
+            </div>
+          </div>
         </div>
-        <div class="icons">
-          <img src="img/insta.svg" alt="insta" />
-          <img src="img/envelope.svg" alt="envelope" />
-        </div>
       </div>
+    </main>
 
-  <div class="slider">
-    <img class="artiste" src="img/mimii.jpg" alt="">
-    <div class="info">
-    <img class="next" src="img/arrow.svg" alt="">
-    <h1>mimii</h1>
-    </div>
-  </div>
-
-  <main>
-    <div class="content">
-<h2>artistes</h2>
-    <div class="background"> <img src="img/background-2.png" alt=""></div>
-
-  <div class="artistes">
-    <div class="left">
-      <div class="jolle"> 
-        <img src="img/jolle.png" alt="">
-        <h3>jolle</h3>
-      </div>
-      <div class="cary"> 
-        <img src="img/cary.png" alt="">
-        <h3>cary</h3>
-      </div>
-  <div class="bottom">
-      <div class="skuff"> 
-        <img src="img/skuff.png" alt="">
-        <h3>Skuff Barbie</h3>
-      </div>
-      <div class="diep"> 
-        <img src="img/diep.png" alt="">
-        <h3>Die P</h3>
-      </div>
-      </div>
-  </div>
-  <div class="right">
-    <div class="top">
-        <div class="mariybu"> 
-          <img src="img/mariybu.png" alt="">
-          <h3>mariybu</h3>
-        </div>
-        <div class="yetundey"> 
-          <img src="img/yetundey.png" alt="">
-          <h3>Yetundey</h3>
-        </div>
-    </div>
-      <div class="satarii"> 
-        <img src="img/satarii.png" alt="">
-        <h3>satarii</h3>
-      </div>
-      <div class="mimii"> 
-        <img src="img/mimii.png" alt="">
-        <h3>mimii</h3>
-      </div>
-    </div>
-  </div>
-</div>
-  </main>
-
-<footer>
-  <div class="contact">
-    <p>contatez nous</p>
-    <div class="icons">
-      <a href="#"><img src="img/insta.svg" alt=""></a>
-      <a href="#"><img src="img/envelope.svg" alt=""></a>
-    </div>
-  </div>
-
-  <div class="ecoute">
-    <p>Ecoutez nous</p>
-    <div class="icons">
-      <a href="#"><img src="img/spotify 2.svg" alt=""></a>
-      <a href="#"><img src="img/youtube 2.svg" alt=""></a>
-      <a href="#"><img src="img/deezer 1.svg" alt=""></a>
-    </div>
-  </div>
-
-<form class="news">
-  <p>Newsletter</p>
-  <div class="email">
-    <input id="email" type="email" placeholder="entrez votre email" required>
-    <button type="submit">S'inscrire</button>
-    </div>
-</form>
-
-<div class="politique">
-  <p>2025 356xx</p>
-  <p>berlin</p>
-  <p>terms</p>
-  <p>politicy</p>
-</div>
-</footer>
-
-
+    <include src="./components/footer.html"></include>
 
     <script src="js/main.js" type="module"></script>
   </body>

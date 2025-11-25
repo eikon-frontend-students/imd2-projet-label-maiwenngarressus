@@ -172,7 +172,7 @@ main {
   width: 100%;
   height: 100%;
   z-index: -1;
-  top: 142%;
+  top: 99%;
 }
 
 .contact .icons {
@@ -211,16 +211,230 @@ main {
 }
 
 footer {
-  padding: 56px 112px 128px 112px;
+  padding: 56px 100px 128px 100px;
   background-color: #341e47;
   display: flex;
   justify-content: space-evenly;
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   text-transform: uppercase;
 }
 
 footer p {
   color: var(--Colors-violet-light, #f5edf8);
+  font-size: 16px;
+}
+
+footer .icons img {
+  width: 20px;
+}
+
+.email {
+  color: var(--Colors-violet-light, #f5edf8);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 0px;
+}
+
+button {
+  border: none;
+  background-color: #f5edf8;
+  padding: 4px;
+  color: #341e47;
+}
+
+input {
+  border: #f5edf8 1px solid;
+  padding: 3px;
+  background-color: #341e47;
+  color: #f5edf8;
+}
+
+.slider-artiste {
+  margin: 0px;
+}
+
+.slider-artiste .presentation {
+  width: 100%;
+  object-fit: cover;
+  height: 611px;
+  object-position: top 60%;
+  overflow: hidden;
+}
+
+.slider-artiste .presentation {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  align-items: end;
+  position: absolute;
+  top: 45%;
+  right: 0px;
+  margin: 0px 15px;
+}
+
+.content-artiste {
+  margin: 64px 100px 100px 100px;
+}
+
+.slider-artiste h2 {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Void Trial";
+  font-size: var(--Spaces-128, 128px);
+  font-weight: 400;
+}
+
+.content-artiste p {
+  width: 601px;
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-24, 24px);
+  font-weight: 300;
+}
+
+.reseaux {
+  display: flex;
+  gap: 32px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.clips img {
+  width: 600px;
+}
+
+.clips {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.gelogen img,
+.petrichor img,
+.arsch img {
+  width: 183px;
+}
+
+.gelogen,
+.petrichor,
+.arsch {
+  display: flex;
+  align-items: end;
+  gap: 32px;
+}
+
+.morceaux .title {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.morceaux .type {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.morceaux {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.morceaux h1 {
+  color: var(--Colors-orange, #b87313);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-24, 24px);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.date h1 {
+  color: var(--Colors-orange, #b87313);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-24, 24px);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.annee {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-24, 24px);
+  font-weight: 450;
+  text-transform: uppercase;
+  margin: 32px 0px 8px 0px;
+}
+
+.infos-tickets {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.lieu {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Text-24, 24px);
+  font-weight: 400;
+}
+
+.sold-out {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tickets {
+  color: var(--Colors-background, #fff);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px;
+  background-color: #341e47;
+}
+
+.dates-complete {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.content-artiste {
+  display: flex;
+  gap: 137px;
 }
