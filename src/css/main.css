@@ -139,11 +139,13 @@ main {
   position: relative;
 }
 
-.content h3 {
+.content h3,
+.jolle a {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Void Trial";
   font-weight: 700;
   margin: 0px;
+  text-decoration: none;
 }
 
 .jolle,
@@ -163,7 +165,7 @@ main {
   text-transform: uppercase;
 }
 
-.jolle h3 {
+.jolle a {
   padding-left: 30px;
 }
 
@@ -211,7 +213,8 @@ main {
 }
 
 footer {
-  padding: 56px 100px 128px 100px;
+  padding: 56px 0px 128px 0px;
+
   background-color: #341e47;
   display: flex;
   justify-content: space-evenly;
@@ -291,6 +294,7 @@ input {
   font-family: "Void Trial";
   font-size: var(--Spaces-128, 128px);
   font-weight: 400;
+  margin-left: 32px;
 }
 
 .content-artiste p {
@@ -349,6 +353,7 @@ input {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  max-width: 245px;
 }
 
 .morceaux .type {
@@ -437,4 +442,43 @@ input {
 .content-artiste {
   display: flex;
   gap: 137px;
+}
+
+.artiste-pv {
+  display: flex;
+  flex-direction: column;
+  width: 346px;
+}
+
+.pv-artistes {
+  display: flex;
+  gap: 8px;
+  margin: 0px 15px;
+}
+
+.pour-vous {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 50px 0px;
+  background-color: #f5edf8;
+}
+
+.nom-artiste {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Void Trial";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pv {
+  color: var(--Colors-violet-dark, #341e47);
+  font-family: "Antique Legacy Trial";
+  font-size: var(--Spaces-48, 48px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px 15px;
 }
