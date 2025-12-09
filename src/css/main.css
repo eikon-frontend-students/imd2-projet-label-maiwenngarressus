@@ -134,9 +134,8 @@ main {
 .artistes {
   display: flex;
   gap: 8px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 15px;
-  position: relative;
 }
 
 .content h3,
@@ -148,10 +147,8 @@ main {
   text-decoration: none;
 }
 
-.jolle a,
-.satarii {
-  font-size: 128px;
-  margin: 0px 0px 64px 0px;
+.jolle a img {
+  width: 699px;
 }
 
 .cary,
@@ -163,11 +160,18 @@ main {
 
 .satarii {
   text-transform: uppercase;
+  font-size: 128px;
+  margin: 0px 0px 64px 0px;
 }
 
-.jolle a {
-  padding-left: 30px;
+.jolle a .lien-nom {
   margin-bottom: 89px;
+  padding-left: 30px;
+  font-size: 128px;
+}
+
+.jolle {
+  position: relative;
 }
 
 .background {
@@ -175,7 +179,7 @@ main {
   width: 100%;
   height: 100%;
   z-index: -1;
-  top: 145%;
+  top: 130%;
 }
 
 .contact .icons {
@@ -214,15 +218,14 @@ main {
 }
 
 footer {
-  padding: 56px 0px 128px 0px;
-
   background-color: #341e47;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: Helvetica;
   font-size: 16px;
   font-weight: 200;
   text-transform: uppercase;
+  padding: 56px 100px 128px 100px;
 }
 
 footer p {
