@@ -511,3 +511,192 @@ input {
   font-weight: 600;
   margin: 0px 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav img {
+    width: 70px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .icons {
+    gap: 8px;
+  }
+
+  .icons img {
+    width: 16px;
+  }
+
+  main {
+    margin: 96px 8px 0px 0px;
+  }
+
+  .content h2 {
+    font-size: 24;
+    font-weight: 250;
+    width: 200px;
+  }
+
+  .artistes {
+    flex-direction: column;
+    margin-left: 8px;
+  }
+
+  .skuff,
+  .diep,
+  .mariybu,
+  .yetundey {
+    font-size: 28px;
+    margin: 0px 0px 32px 0px;
+  }
+
+  .jolle a img {
+    max-width: 100%;
+  }
+
+  .cary,
+  .mimii {
+    font-size: 64px;
+    margin: 0px 0px 36px 0px;
+  }
+
+  .satarii {
+    text-transform: uppercase;
+    font-size: 108px;
+    margin: 0px 0px 48px 0px;
+  }
+
+  .jolle a .lien-nom {
+    margin-bottom: 40px;
+    font-size: 108px;
+  }
+
+  .bg-square-violet {
+    top: 20%;
+    left: 0;
+    right: 12%;
+    bottom: 3%;
+    z-index: -1;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 24px;
+    padding: 56px 100px 128px 50px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+
+  footer .icons img {
+    width: 16px;
+  }
+
+  .content-artiste {
+    margin: 32px 0px 56px 50px;
+  }
+
+  .content-artiste {
+    flex-direction: column;
+    gap: 108px;
+  }
+
+  .content-artiste p {
+    width: 350px;
+    font-size: 20px;
+  }
+
+  .reseaux {
+    gap: 16px;
+  }
+
+  .clips img {
+    width: 330px;
+  }
+
+  .clips {
+    gap: 32px;
+  }
+
+  .left-artistes,
+  .right-artistes,
+  .content-artiste {
+    gap: 64px;
+  }
+
+  .gelogen img,
+  .petrichor img,
+  .arsch img {
+    width: 100px;
+  }
+
+  .gelogen,
+  .petrichor,
+  .arsch {
+    gap: 16px;
+  }
+
+  .morceaux .title {
+    font-size: 20px;
+    max-width: 200px;
+  }
+
+  .morceaux .type {
+    font-size: 16px;
+  }
+
+  .morceaux h1,
+  .date h1 {
+    font-size: 20px;
+  }
+
+  .annee {
+    font-size: 20px;
+    margin: 24px 0px 8px 0px;
+  }
+
+  .lieu {
+    font-size: 16;
+  }
+
+  .sold-out {
+    font-size: 16px;
+  }
+
+  .tickets {
+    font-size: 12px;
+  }
+
+  .dates-complete {
+    gap: 12px;
+  }
+
+  .pv-artistes {
+    gap: 4px;
+    padding: 0px 8px;
+  }
+
+  .pour-vous {
+    gap: 20px;
+    padding: 20px 0px;
+  }
+
+  .nom-artiste {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .pv {
+    font-size: 32;
+    margin: 0px 8px;
+  }
+}
