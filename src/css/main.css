@@ -103,6 +103,18 @@ main {
   background-color: var(--Colors-violet-light, #f5edf8);
 }
 
+.jolle a img,
+.cary img,
+.skuff img,
+.diep img,
+.mariybu img,
+.yetundey img,
+.satarii img,
+.mimii img {
+  width: 100%;
+  height: auto;
+}
+
 .jolle,
 .cary,
 .skuff,
@@ -113,14 +125,14 @@ main {
 .mimii {
   display: flex;
   flex-direction: column;
-  max-width: 699px;
+  width: 100%;
 }
 
 .skuff,
 .diep,
 .mariybu,
 .yetundey {
-  max-width: 345px;
+  max-width: 100%;
   font-size: 56px;
   margin: 0px 0px 75px 0px;
 }
@@ -134,7 +146,7 @@ main {
 .artistes {
   display: flex;
   gap: 8px;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-left: 15px;
 }
 
@@ -148,7 +160,7 @@ main {
 }
 
 .jolle a img {
-  width: 699px;
+  max-width: 100%;
 }
 
 .cary,
@@ -174,12 +186,18 @@ main {
   position: relative;
 }
 
-.background {
+.bg-square-container {
+  position: relative;
+}
+
+.bg-square-violet {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  background-color: hsla(284, 44%, 95%, 1);
+  top: 21%;
+  left: 0;
+  right: 10%;
+  bottom: 5%;
   z-index: -1;
-  top: 130%;
 }
 
 .contact .icons {
@@ -451,13 +469,24 @@ input {
 .artiste-pv {
   display: flex;
   flex-direction: column;
-  width: 346px;
+  max-width: 100%;
 }
 
 .pv-artistes {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 8px;
-  margin: 0px 15px;
+  justify-content: center;
+  padding: 0px 15px;
+}
+
+.pv-artistes img {
+  width: 100%;
+  height: auto;
+}
+
+.pv-artistes {
+  width: 100%;
 }
 
 .pour-vous {
@@ -472,17 +501,13 @@ input {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Void Trial";
   font-size: 30px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .pv {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: var(--Spaces-48, 48px);
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   margin: 0px 15px;
 }
