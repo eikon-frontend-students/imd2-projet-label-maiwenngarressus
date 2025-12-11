@@ -366,6 +366,10 @@ input {
   gap: 32px;
 }
 
+.reseaux img {
+  width: 28px;
+}
+
 .introduction {
   display: flex;
   flex-direction: column;
@@ -639,6 +643,10 @@ input {
 
   .reseaux {
     gap: 16px;
+  }
+
+  .reseaux img {
+    width: 20px;
   }
 
   .clips {
