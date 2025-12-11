@@ -17,6 +17,40 @@ body {
   font-family: "Antique Legacy Trial";
 }
 
+@font-face {
+  font-family: "Void Trial";
+  src: url("../fonts/Void/Void-Regular/Void-Regular-Trial.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Void Trial";
+  src: url("../fonts/Void/Void-Bold/Void-Bold-Trial.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Antique Legacy Trial";
+  src: url("../fonts/Antique-Legacy/Antique-Legacy-Regular/Antique-Legacy-Regular-Trial.otf")
+    format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Antique Legacy Trial";
+  src: url("../fonts/Antique-Legacy/Antique-Legacy-Thin/Antique-Legacy-Thin-Trial.otf")
+    format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Antique Legacy Trial";
+  src: url("../fonts/Antique-Legacy/Antique-Legacy-Bold/Antique-Legacy-Bold-Trial.otf")
+    format("opentype");
+  font-weight: 700;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -300,7 +334,7 @@ input {
   display: flex;
   flex-direction: column;
   gap: 128px;
-  align-items: end;
+  justify-content: center;
   position: absolute;
   top: 45%;
   right: 0px;
@@ -320,7 +354,7 @@ input {
 }
 
 .content-artiste p {
-  width: 601px;
+  max-width: 601px;
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: var(--Text-24, 24px);
@@ -372,9 +406,7 @@ input {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   max-width: 245px;
 }
 
@@ -382,9 +414,7 @@ input {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: 20px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 
 .morceaux {
@@ -393,14 +423,7 @@ input {
   gap: 24px;
 }
 
-.morceaux h1 {
-  color: var(--Colors-orange, #b87313);
-  font-family: "Antique Legacy Trial";
-  font-size: var(--Text-24, 24px);
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
+.morceaux h1,
 .date h1 {
   color: var(--Colors-orange, #b87313);
   font-family: "Antique Legacy Trial";
@@ -427,7 +450,7 @@ input {
 .lieu {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
-  font-size: var(--Text-24, 24px);
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -458,7 +481,7 @@ input {
 .right-artistes {
   display: flex;
   flex-direction: column;
-  gap: 128px;
+  gap: 144px;
 }
 
 .content-artiste {
@@ -517,7 +540,7 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
   }
 
   .nav img {
@@ -525,7 +548,7 @@ input {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .icons {
@@ -611,7 +634,7 @@ input {
   }
 
   .content-artiste p {
-    width: 350px;
+    width: 320px;
     font-size: 20px;
   }
 
@@ -620,7 +643,7 @@ input {
   }
 
   .clips img {
-    width: 330px;
+    width: 300px;
   }
 
   .clips {
