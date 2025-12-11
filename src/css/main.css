@@ -336,7 +336,7 @@ input {
   gap: 128px;
   justify-content: center;
   position: absolute;
-  top: 45%;
+  top: 50%;
   right: 0px;
   margin: 0px 15px;
 }
@@ -354,7 +354,7 @@ input {
 }
 
 .content-artiste p {
-  max-width: 601px;
+  max-width: 100%;
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: var(--Text-24, 24px);
@@ -373,7 +373,7 @@ input {
 }
 
 .clips img {
-  width: 600px;
+  width: 100%;
 }
 
 .clips {
@@ -407,7 +407,7 @@ input {
   font-family: "Antique Legacy Trial";
   font-size: 24px;
   font-weight: 300;
-  max-width: 245px;
+  max-width: 100%;
 }
 
 .morceaux .type {
@@ -625,7 +625,7 @@ input {
   }
 
   .content-artiste {
-    margin: 32px 0px 56px 50px;
+    margin: 32px 50px 56px 50px;
   }
 
   .content-artiste {
@@ -634,16 +634,11 @@ input {
   }
 
   .content-artiste p {
-    width: 320px;
     font-size: 20px;
   }
 
   .reseaux {
     gap: 16px;
-  }
-
-  .clips img {
-    width: 300px;
   }
 
   .clips {
