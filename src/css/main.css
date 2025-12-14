@@ -474,9 +474,7 @@ input {
   color: var(--Colors-violet-dark, #341e47);
   font-family: "Antique Legacy Trial";
   font-size: 15px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .tickets {
