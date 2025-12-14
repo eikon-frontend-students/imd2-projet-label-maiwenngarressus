@@ -147,6 +147,7 @@ main {
 .mimii img {
   width: 100%;
   height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .jolle,
@@ -160,6 +161,17 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.jolle:hover,
+.cary:hover,
+.skuff:hover,
+.diep:hover,
+.mariybu:hover,
+.yetundey:hover,
+.satarii:hover,
+.mimii:hover {
+  transform: scale(0.98);
 }
 
 .skuff,
